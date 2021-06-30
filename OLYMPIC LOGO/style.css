@@ -4,17 +4,20 @@
     background-size: cover;
   }
   body{
-    text-decoration: red;
+    text-decoration: red, wavy;
+    text-decoration-style: double;
   }
   h1
   {
-    color: rgb(98, 0, 255); 
+    color: goldenrod; 
     font-size: 40px;
   }
   #myCanvas
   {
-    border-width:10px;
+    background-image: url('bg2.jpg');
+    border: 15px;
+    height: 600px;
     background-color: white; 
-    border-style:ridge;
+    border-style: ridge;
     cursor: pointer;
   }

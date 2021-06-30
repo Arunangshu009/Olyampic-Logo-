@@ -1,13 +1,16 @@
+canvas -
+document.getElementById("myCanvas")
+ctx=canvas.getContext("2d")
+
 function draw(){
 ctx = document.getElementById;
 }
 
 ctx.beginPath();
 ctx.stokeStyle = "grey";
-ctx.lineWidth = 4;
+ctx.lineWidth = 5;
 ctx.rect(150, 143, 430, 200)
 ctx.stoke();
-
 
 ctx.beginPath();
 ctx.strokeStyle = "Blue";
