@@ -3,21 +3,21 @@
     background-position: center;
     background-size: cover;
   }
-  body{
-    text-decoration: red, wavy;
-    text-decoration-style: double;
-  }
   h1
   {
     color: goldenrod; 
     font-size: 40px;
+    text-decoration: red, wavy;
+    text-decoration-style: double;
   }
   #myCanvas
   {
-    background-image: url('bg2.jpg');
     border: 15px;
     height: 600px;
     background-color: white; 
     border-style: ridge;
     cursor: pointer;
+  }
+  span{
+    font-size: 20px;
   }
